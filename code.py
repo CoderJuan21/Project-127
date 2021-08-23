@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import time
 import csv
 
-start_url = "https://en.wikipedia.org/wiki/List_of_brightest_stars_and_other_record_stars"
+start_url = "https://en.wikipedia.org/wiki/List_of_brown_dwarfs"
 browser = webdriver.Chrome('')
 browser.get(start_url)
 time.sleep(8)
